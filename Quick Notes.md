@@ -1,7 +1,6 @@
 Project ideas:
 Website
 
-
 Caching:
   How to use File System as DB
   How caching works in next.js (cache:'no-store' | next: {revalidate 15}) This doesnt apply using axios
@@ -20,7 +19,9 @@ What can I do for specific info like:
     → ...props captures all other props (onClick, aria-label, etc.) and passes them through.
 
 Fonts:
-  Stored in layout.tsx (non external network requestss font)
+  next/font/google: Searched in google fonts, Stored in layout.tsx, Referenced in globals.tsx > @theme <u>inline</u> (Explain this process as simple as possible)
+  Most common ways of adding fonts
+  Websites where you can export/download fonts
   Explain local vs non-local font handling (is non-local better?)
   Explain the differences between fonts with external network requests and the ones w/out.
 
@@ -40,6 +41,9 @@ Markdown:
 
 Rendering.md:
 Navigation.md:
+
+InitialSetu.md:
+  Add link to website documentation
 
 Animation.md:
   Include some quick tips section like:
