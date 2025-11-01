@@ -2,7 +2,8 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #1A1A1A ;
+  --foreground: #1A1A1A;
+
 
   hex:#1a1a1a;
 }
@@ -37,9 +38,6 @@
   --color-test2: #0000f8;/* blue */
   --color-test3: #fefe00;/* yellow */
 
-  --font-primary: 'hedliner', sans-serif;
-  --font-secondary: 'Geist Sans', sans-serif;
-
   --animate-fade-in-scale: fade-in-scale 0.3s ease-out;
   @keyframes fade-in-scale {
     0% {
@@ -56,6 +54,9 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  
+  --font-primary:  var(--font-nunito);
+  
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
