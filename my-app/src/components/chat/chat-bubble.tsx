@@ -23,7 +23,7 @@ export default function ChatBubble({ message }: ChatBubbleProps) {
   }, [message.timestamp]);
 
   return (
-    <div className={cn("flex items-end gap-2", isUser ? "justify-end" : "justify-start")}>
+    <div className={cn("flex items-end gap-2 font-primary", isUser ? "justify-end" : "justify-start")}>
       {!isUser && botAvatar && (
         <Avatar className="w-8 h-8">
            <Image src={botAvatar.imageUrl} alt={botAvatar.description} data-ai-hint={botAvatar.imageHint} width={32} height={32} className="rounded-full" />
