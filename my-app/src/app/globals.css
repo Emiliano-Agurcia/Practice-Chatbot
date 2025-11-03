@@ -5,7 +5,7 @@
   --foreground: #1A1A1A;
 
 
-  hex:#1a1a1a;
+  hex:#3e71d0;
 }
 
 /* >Tailwind Docs: Theme */
@@ -28,9 +28,10 @@
 
   --color-border: #404040;
   
-  --background-image-bgg: linear-gradient(340deg, rgb(from var(--color-primary) r g b / 0.7) 0%, rgb(from var(--color-terciary) r g b / 0.9) 90%);
+  --background-image-bgg: linear-gradient(335deg, rgb(from var(--color-primary) r g b / 0.7) 0%, rgb(from var(--color-terciary) r g b / 0.9) 80%);
   --background-image-bgi: url('/images/background3.jpg');
   --background-image-chat-bg: var(--background-image-bgg), var(--background-image-bgi);
+  /* --color-chat-bg: #999999; */
 
   /* Test colors */
   --color-test: #ff0000; /* red */
