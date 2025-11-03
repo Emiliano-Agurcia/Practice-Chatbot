@@ -43,7 +43,7 @@ export default function ChatView({ initialMessages }: ChatViewProps) {
   return (
   <div className="flex flex-col w-full h-screen max-w-6xl mx-auto bg-cover shadow-2xl bg-chat-bg">
        <header className="p-4 border-b shadow-sm border-border bg-terciary">
-        <h1 className="text-2xl text-terciary-foreground font-headline font-primary">ChatBot</h1>
+        <h1 className="text-2xl text-terciary-foreground font-secondary">ChatBot</h1>
         
         <p className="flex flex-row gap-1 w-max text-md text-primary"><Circle className="self-center w-2 h-2 text-test1 fill-test sm:fill-test2 lg:fill-test1" />Online</p>
        </header>
