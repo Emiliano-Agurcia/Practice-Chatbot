@@ -41,11 +41,11 @@ export default function MessageInput({ onSend }: MessageInputProps) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="p-4 border-t border-border">
-      <div className="flex items-center space-x-3">
+    <form onSubmit={handleSubmit} className="px-4 py-3 border-t border-border backdrop-blur-xs backdrop-brightness-30">
+      <div className="flex items-center space-x-2">
         <Input type="text" placeholder="Type a message..." className="flex-1" value={text} onChange={(e) => setText(e.target.value)}  autoComplete="off" />
         
-        <Button id="btIMG" type="button" variant="terciary" onClick={handleImageButton} className={`${imagePreview ? "group" : ""} relative size-10 rounded-[13px] overflow-hidden flex items-center justify-center transition-all md:w-30`} aria-label={imagePreview ? "Cancel image" : "Upload image"}>
+        <Button id="btIMG" type="button" size="icon" variant="terciary" onClick={handleImageButton} className={`${imagePreview ? "group" : ""} relative overflow-hidden flex items-center justify-center transition-all sm:w-30 lg:w-50`} aria-label={imagePreview ? "Cancel image" : "Upload image"}>
           <input type="file" accept="image/*" ref={fileInputRef} className="hidden" onChange={handleFileChange} />
 
           {imagePreview ? ( /* Cuando hay img */
