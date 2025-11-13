@@ -25,6 +25,13 @@ Fonts:
   Explain local vs non-local font handling (is non-local better?)
   Explain the differences between fonts with external network requests and the ones w/out.
 
+Translation:
+  Maybe you can change this route (my-app/i18n for request.ts)
+
+  Clarify that you will use the most standard technique for nextjs apps
+  Put the installation steps, and a simple how to use guide
+  Briefly Reference other common techniques for nextjs apps
+
 Images:
   How to declare component
   Free Images: Unsplash, Freepik, Pexels, Pixabay.
