@@ -78,3 +78,8 @@ body {
 /* Makes hover work in TW v4 (In v4 hybrids id as touch devices, not applying hover automatically) */
 @custom-variant hover (&:hover);
 /* You can test this by using Surface7Pro w/out keyboard, and testing their website hover animations */
+
+/* Tailwind custom additions */
+/* :not([class*="twProp-"]) to prevent overriding TW properties */
+
+/* .font-primary:not([class*="tracking-"]) {letter-spacing: 0.15em;} */
