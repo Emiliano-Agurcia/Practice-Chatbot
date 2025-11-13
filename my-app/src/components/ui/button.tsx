@@ -12,6 +12,7 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({ className, variant, size, asChild = false, ...props }, ref) => {
     
+    // Slot (utility): Merges its props onto its immediate child.
     const Comp = asChild ? Slot : "button"
 
     return (
