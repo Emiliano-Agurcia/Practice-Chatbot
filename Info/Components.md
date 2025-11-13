@@ -20,7 +20,7 @@ These utilities help with component styling:
 - `tailwind-merge` — For safely merging Tailwind classes
 
 ### 2. shadcn/ui
-A collection of reusable components built on top of Radix UI and Tailwind CSS.
+A collection of reusable components built on top of Radix UI and Tailwind CSS. (This is Radix UI but with styling, you can override it.)
 - **Website**: [shadcn/ui](https://ui.shadcn.com/)
 - **Documentation**: [shadcn/ui Docs](https://ui.shadcn.com/docs)
 
